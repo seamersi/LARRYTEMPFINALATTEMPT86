@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href = #section1>Section 1 </a></li>
+            <li><a href = #section2>Section 2 </a></li>
+            <li><a href = #section3>Section 3 </a></li>
+            <li><a href = #section4>Section 4 </a></li>
+        </ul>
+    </nav>
+    <div class = "section1" id = "section1">
+        <div class= "header">
+            <h1>Welcome to <br> A Nicer Website </h1>
+        </div>
+        <div class = "intro">
+            <p>Scroll to see more</p>
+        </div>
+    </div>
+    <div class = "section2" id = "section2">
+        <div class="content">
+            <p class = "paragraph" id = "p1">
+                I'm just going to put some words here as a placeholder
+            </p>
+            <p class = "paragraph" id = "p2">
+                More placeholding words
+            </p>
+        </div>
+    </div>
+    <div class = "section3" id = "section3">
+        <div class="part1">
+            <h1>Random Sentence</h1>
+            <p class="options">Enter a place: <input type="text" id="place" placeholder="Place"> </p>
+            <p class="options">Enter a person's name: <input type="text" id="person" placeholder="Name"> </p>
+            <p class="options">Enter a verb (run, jump, eat): <input type="text" id="verb" placeholder="Verb"> </p>
+            <p class="options">Enter an adjective (adorable, intelligent, damaged): <input type="text" id="adjective" placeholder="Adjective"> </p>
+            <p class="options">Enter an adverb (furiously, loudly, frantically): <input type="text" id="adverb" placeholder="Adverb"> </p>
+            <button onclick="getData()" id=button>Click to find out the sentence</button>
+        </div>
+
+        <h1 id="sentence">Sentence</h1>
+
+    </div>
+    <div class = "section4" id = "section4">
+        <div class="part2">
+            <h1>Guess the Word</h1>
+            <input type="text" id="letter">
+            <button onclick="enterLetter()" id="submit">Click</button>
+            <h4>You have <span id="wrong"></span> chances left</h4>
+
+            <div class="grid">
+                <h1 id="word"></h1>
+                <h4 id="hint">Hint</span></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

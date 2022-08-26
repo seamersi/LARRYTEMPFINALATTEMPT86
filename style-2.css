@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #000;
+    position: fixed;
+    width:100%;
+    z-index: 5;
+}
+nav ul{
+    width: 100%;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+}
+nav a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 20px;
+}
+.section1, .section2, .section3, .section4 {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1{
+    background-image: url(images/leaves\ .jpeg);
+}
+.section2{
+    background-image: url(images/building.jpeg);
+    background-attachment: fixed;
+}
+
+.header{
+    color: #fff;
+    position: relative;
+    top: 100px;
+    left: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 40%;
+    padding: 20px  0 20px 0;
+    font-size: 24px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.intro{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 400px;
+    left: 30%;
+    border: 2px solid orange;
+    padding:20px  0 20px 0 ;
+    border-radius: 5px;
+}
+.paragraph{
+    font-size: 22px;
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#p1{
+    color: rgb(252, 246, 226);
+    position: relative;
+    top: 100px;
+    left: 60%;
+}
+#p2{
+    color: rgb(75, 158, 181);
+    background-color: rgb(252, 246, 226);
+    border: 2px solid rgb(75, 158, 181);
+    position: relative;
+    top: 300px;
+    left: 60%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section3 {
+    background-image: url(images/pexels-1.jpeg);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    text-align: center;
+    color: purple;
+}
+
+.section3 p {
+    margin: 20px;
+    font-size: 20px;
+    color: purple;
+}
+.section3 input {
+    height: 30px;
+    border-color: transparent;
+    color: rgb(174, 0, 197);
+}
+
+.section3 input::placeholder {
+    text-align: center;
+    color: rgb(211, 110, 211);
+    font-style: italic;
+
+}
+#button {
+    color: rgb(168, 132, 168);
+    background-color: purple;
+    font-size: 22px;
+    padding: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.section4{
+    background-image: url(images/pexels-2.jpeg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4 h1 {
+    color: white;
+    position: relative;
+    top: -100px;
+}
+
+#letter {
+    position: relative;
+    top: -50px;
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+
+}
+
+#letter:focus {
+    outline: 2px solid orange;
+}
+#submit {
+    position: relative;
+    top: -40px;
+    border-color: transparent;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+#word {
+    font-size: 35px;
+
+}
+
+#hint{
+    position: relative;
+    top: -70px;
+    color: white;
+    font-size: 24px;
+    font-weight: 300px;
+}
+
+.section4 h4 {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+    .header{
+        width: 80%;
+    }
+    #p1{
+        width: 80%;
+        left: 10%;
+        background-color:rgb(97, 92, 167);
+        border: 2px solid rgba(189, 189, 189, 0.685)
+
+    }
+    #p2{
+        width: 80%;
+        left: 10%;
+        
+
+    }
+}
+
+
